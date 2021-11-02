@@ -102,15 +102,21 @@ function percentage(employee, totalBonus) {
   return percent * 100;
 }
 
+
+
+
+
+//Runs the code:
+for (let i = 0; i < employees.length; i++) {
+  console.log(newEmployee(employees[i]));
+}
+
+
+/*
 console.log('employee 1:', totalBonus(employees[0]));
 console.log('employee 2:', totalBonus(employees[1]));
 console.log('employee 3:', totalBonus(employees[2]));
 console.log('employee 4:', totalBonus(employees[3]));
 console.log('employee 5:', totalBonus(employees[4]));
 console.log('-----');
-
-for (let i = 0; i < employees.length; i++) {
-  console.log(newEmployee(employees[i]));
-}
-
-//totalBonus / annuel salery
+*/
